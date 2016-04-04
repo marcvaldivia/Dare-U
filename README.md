@@ -11,4 +11,4 @@ Dare-U started at the end of 2015. After a pair of months without any update, th
 If you have any question, you can write me on: marc@dare-u.com
 
 ## Project Structure
-This project is separated in 3 parts. The Android app, the PHP sever (2 versions, for Google Cloud App Engine and for and Apache Server) and the MySQL database.
+This project is separated in 3 parts. The Android app, the PHP server (2 versions, for Google Cloud 'AppEngine' and for an Apache Server) and the MySQL database.
