@@ -1,6 +1,6 @@
 # Dare-U
-Dare-U, the new way to challenge your friends.
-Web: http://dare-u.com/
+Dare-U, the new way to challenge your friends.</br>
+Web: http://dare-u.com/ </br>
 Google Play: https://play.google.com/store/apps/details?id=com.dare_u.dare_u
 
 ## What is Dare-U
