@@ -1,0 +1,7 @@
+<?php
+
+	define('NOTIFICATION_ANSWER', 'ANSWER');
+	define('NOTIFICATION_CHALLENGE', 'CHALLENGE');
+	define('NOTIFICATION_CONTACT', 'CONTACT');
+	
+?>

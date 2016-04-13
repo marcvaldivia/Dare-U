@@ -1,0 +1,6 @@
+<resources>
+    <declare-styleable name="ButtonU">
+        <attr name="buttonWhite" format="boolean" />
+        <attr name="buttonRed" format="boolean" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="DareU" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <style name="DareU.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="DareU.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="DareU.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

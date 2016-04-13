@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".MainActivity">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/fragment_container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="@dimen/selection_bar"/>
+
+    <LinearLayout
+        android:id="@+id/selectionBar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/selection_bar"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@color/blue">
+
+        <ImageView
+            android:id="@+id/home"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:padding="@dimen/selection_bar_padding"
+            android:src="@drawable/ic_home_white_48dp"/>
+
+        <ImageView
+            android:id="@+id/challenges"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="@dimen/selection_bar_padding"
+            android:src="@drawable/ic_camera_alt_white_48dp"/>
+
+        <ImageView
+            android:id="@+id/contacts"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="@dimen/selection_bar_padding"
+            android:src="@drawable/ic_perm_contact_calendar_white_48dp"/>
+
+        <ImageView
+            android:id="@+id/profile"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="@dimen/selection_bar_padding"
+            android:src="@drawable/ic_person_white_48dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

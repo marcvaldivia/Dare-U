@@ -1,0 +1,57 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true" android:state_focused="true">
+        <shape>
+            <solid android:color="@color/white"/>
+            <stroke
+                android:width="@dimen/edittext_width"
+                android:color="@color/blue" />
+            <corners
+                android:radius="@dimen/edittext_radius" />
+        </shape>
+    </item>
+
+    <item android:state_pressed="true" android:state_focused="false">
+        <shape>
+            <solid android:color="@color/white"/>
+            <stroke
+                android:width="@dimen/edittext_width"
+                android:color="@color/grey" />
+            <corners
+                android:radius="@dimen/edittext_radius" />
+        </shape>
+    </item>
+
+    <item android:state_pressed="false" android:state_focused="true">
+        <shape>
+            <solid android:color="@color/white"/>
+            <stroke
+                android:width="@dimen/edittext_width"
+                android:color="@color/blue" />
+            <corners
+                android:radius="@dimen/edittext_radius" />
+        </shape>
+    </item>
+
+    <item android:state_pressed="false" android:state_focused="false">
+        <shape>
+            <solid android:color="@color/white" />
+            <stroke
+                android:width="@dimen/edittext_width"
+                android:color="@color/grey" />
+            <corners
+                android:radius="@dimen/edittext_radius" />
+        </shape>
+    </item>
+
+    <item android:state_enabled="true">
+        <shape>
+            <padding
+                android:left="@dimen/edittext_padding"
+                android:top="@dimen/edittext_padding"
+                android:right="@dimen/edittext_padding"
+                android:bottom="@dimen/edittext_padding" />
+        </shape>
+    </item>
+
+</selector>

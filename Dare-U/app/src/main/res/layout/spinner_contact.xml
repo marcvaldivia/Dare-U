@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:layout_width="@dimen/spinner_capital_height"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_middle_big"
+        android:textColor="@color/blue"
+        android:id="@+id/txtCapital"
+        android:gravity="center"
+        android:padding="@dimen/listview_contact_capital_padding"
+        android:layout_marginLeft="@dimen/listview_contact_capital_margin"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_middle"
+        android:textColor="@color/black"
+        android:id="@+id/txtContact"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/txtCapital"
+        android:layout_toEndOf="@id/txtCapital"/>
+
+</RelativeLayout>

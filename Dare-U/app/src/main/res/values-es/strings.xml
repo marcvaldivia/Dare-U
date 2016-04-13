@@ -1,0 +1,124 @@
+<resources>
+
+    <string name="gcm_defaultSenderId">532816633604</string>
+    <string name="google_app_id">1:532816633604:android:87655ae98ebe419d</string>
+
+    <!-- App Strings -->
+    <string name="app_name">Dare-U</string>
+    <string name="app_language">spanish</string>
+    <string name="app_device">android</string>
+    <string name="app_loading">Cargando</string>
+    <string name="app_designed">Creado en Barcelona</string>
+    <string name="app_senderId">532816633604</string>
+
+    <!-- Help -->
+    <string name="help_title">Ayuda</string>
+    <string name="help_home">Esta pantalla te mostrará los desafíos públicos que han compartido tus contactos</string>
+    <string name="help_challenges">Esta pantalla te mostrará tus desafíos pendientes y completados. Puedes crear un nuevo desafío haciendo clic en el botón de la barra superior.\nTIP: Puedes eliminar un desafío NO contestado mantiéndolo pulsado</string>
+    <string name="help_contacts">Esta pantalla te mostrará tus contactos y aquellos seleccionados como favoritos.\nPuedes crear un nuevo contacto haciendo clic en el botón de la barra superior. Busca contactos por su nombre de usuario y haz clic en el botón de añadir.\nTIP: Puedes eliminar un usuario mantiéndolo pulsado</string>
+    <string name="help_profile"></string>
+    <string name="help_no_contacts">Todavía no tienes ningún contacto. Puedes añadir nuevos contactos pulsando el botón situado en la barra superior, o invitar a tus amigos a unirse a Dare-U con el botón que encontrarás a continuación.</string>
+    <string name="help_no_posts">Hola, parece que todavía no hay ninguna actividad por aquí.</string>
+    <string name="help_no_challenges">Hola, parece que todavía no hay ninguna actividad por aquí. Puedes enviar un desafío yendo a tus contactos o haciendo clic en el botón de la barra superior.</string>
+    <string name="help_invite">Puedes invitar a tus amigos a unirse a Dare-U con el botón de la barra superior.</string>
+    <string name="help_invite_friends">Hola, he encontrado esta nueva app que podría gustarte, su nombre es Dare-U, con ella puedes enviar y recibir desafíos. Puedes descargar la app en http://www.dare-u.com. Añádeme a tus contactos, mi nombre de usuario es</string>
+
+    <!-- App Errors -->
+    <string name="error_ok">Vale</string>
+    <string name="error_GEN">Ha ocurrido un error durante este proceso</string>
+    <string name="error_CON">La conexión al servidor no funciona correctamente. Por favor, comprueba tu conexión a Internet e inténtalo de nuevo</string>
+    <string name="error_FORM">Algunos carácteres introducidos no están permitidos</string>
+    <string name="error_LOGIN">Usuario y/o contraseña no són válidos</string>
+    <string name="error_SIGNUP">El nombre de usuario que has escogido no está disponible</string>
+    <string name="error_FILE">Ha ocurrido un error procesando este archivo</string>
+    <string name="error_CONTACT">Este contacto ya ha sido añadido</string>
+    <string name="error_CHALLENGE">Ya dispones de un desafío con este contacto</string>
+
+    <!-- App Options -->
+    <string name="YES">SI</string>
+    <string name="NO">NO</string>
+
+    <!-- App Notifications -->
+    <string name="notification_CONTACT">te ha añadido</string>
+    <string name="notification_CHALLENGE">te ha enviado un dasafío</string>
+    <string name="notification_ANSWER">ha contestado a tu desafío</string>
+
+    <!-- ActionBar -->
+    <string name="action_settings">Ajustes</string>
+    <string name="action_new_challenge">Nuevo desafío</string>
+    <string name="action_add_contact">Añadir contacto</string>
+    <string name="action_accept">Aceptar</string>
+    <string name="action_send">Enviar</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_share">Compartir</string>
+    <string name="action_publish">Publicar</string>
+
+    <!-- List View -->
+    <string name="listview_favorite">Favoritos</string>
+
+    <!-- Main -->
+
+    <!-- Welcome -->
+    <string name="title_activity_welcome">Bienvenido</string>
+    <string name="welcome_log_in">Entrar</string>
+    <string name="welcome_sign_up">Registrarse</string>
+
+    <!-- Log In -->
+    <string name="title_activity_log_in">Entrar</string>
+    <string name="log_in_button">Entrar</string>
+    <string name="log_in_username">Usuario</string>
+    <string name="log_in_password">Contraseña</string>
+
+    <!-- Sign Up -->
+    <string name="title_activity_sign_up">Registrarse</string>
+    <string name="sign_up_button">Registrarse</string>
+    <string name="sign_up_username">Usuario</string>
+    <string name="sign_up_password">Contraseña</string>
+    <string name="sign_up_email">Correo</string>
+    <string name="sign_up_birth_year">Año de nacimiento</string>
+    <string name="sign_up_terms_privacy">¿Aceptas nuestros <a href="http://www.dare-u.com/terms.html">Términos de Uso</a> y <a href="http://www.dare-u.com/privacy.html">Política de Privacidad</a>?</string>
+
+    <!-- Home -->
+
+    <!-- Challenges -->
+    <string name="title_fragment_challenge">Desafíos</string>
+    <string name="challenges_waiting">No contestado</string>
+    <string name="challenges_option_delete">¿Desea eliminar este desafío?</string>
+    <!-- New Challenge -->
+    <string name="title_activity_new_challenge">Nuevo Desafío</string>
+    <string name="new_challenge_to">Para</string>
+    <string name="new_challenge_challenge">Desafío</string>
+    <string name="new_challenge_send">Enviar</string>
+
+    <!-- Contacts -->
+    <string name="title_fragment_contacts">Contactos</string>
+    <string name="contacts_option_delete">¿Desea eliminar este contacto?</string>
+    <string name="contacts_invite">Invitar</string>
+    <!-- New Contact -->
+    <string name="title_activity_new_contact">Añadir Contacto</string>
+    <string name="new_contact_result">Resultados</string>
+
+    <!-- Profile -->
+    <string name="title_fragment_profile">Perfil</string>
+    <string name="profile_username">Usuario</string>
+    <string name="profile_log_out">Salir</string>
+    <string name="profile_option_delete">¿Desea eliminar esta publicación de su perfil público?</string>
+
+    <!-- Camera -->
+    <string name="title_activity_camera">Cámara</string>
+    <string name="camera_no_data">¡Por favor, toma una foto o graba un vídeo para contestar al desafío!</string>
+    <string name="camera_option_post">¿Desea publicar este desafío en su perfil público?</string>
+
+    <!-- Contact Challenge -->
+    <string name="title_activity_contact_challenge">Desafío</string>
+
+    <!-- Post Challenge -->
+    <string name="title_activity_post_challenge">Post</string>
+
+    <!-- Video Recorder -->
+    <string name="title_activity_video_recorder">Video</string>
+
+    <!-- Photo Taker -->
+    <string name="title_activity_photo_taker">Foto</string>
+
+</resources>

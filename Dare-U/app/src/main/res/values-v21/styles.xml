@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="DareU" parent="@style/AppTheme">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:colorAccent">@color/blue</item>
+    </style>
+    >
+
+    <style name="DareU.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+</resources>

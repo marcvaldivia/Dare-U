@@ -1,0 +1,49 @@
+application: app-dare-u
+version: 1
+runtime: php55
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+  
+- url: /log_in.php
+  script: dare_u/log_in.php
+  
+- url: /sign_up.php
+  script: dare_u/sign_up.php
+  
+- url: /log_out.php
+  script: dare_u/log_out.php
+  
+- url: /search_contact.php
+  script: dare_u/search_contact.php
+  
+- url: /new_contact.php
+  script: dare_u/new_contact.php
+  
+- url: /get_contacts.php
+  script: dare_u/get_contacts.php
+  
+- url: /update_contact.php
+  script: dare_u/update_contact.php
+  
+- url: /get_challenges.php
+  script: dare_u/get_challenges.php
+  
+- url: /new_challenge.php
+  script: dare_u/new_challenge.php
+  
+- url: /update_challenge.php
+  script: dare_u/update_challenge.php
+  
+- url: /get_file.php
+  script: dare_u/get_file.php
+  
+- url: /get_posts.php
+  script: dare_u/get_posts.php
+  
+- url: /new_post.php
+  script: dare_u/new_post.php

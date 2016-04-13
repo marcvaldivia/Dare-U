@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:layout_width="@dimen/listview_contact_capital_width"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_big"
+        android:textColor="@color/blue"
+        android:id="@+id/txtCapital"
+        android:gravity="center"
+        android:padding="@dimen/listview_contact_capital_padding"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_middle"
+        android:textColor="@color/black"
+        android:id="@+id/txtContact"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/txtCapital"
+        android:layout_toLeftOf="@+id/favorite"
+        android:layout_toStartOf="@+id/favorite"
+        android:layout_toEndOf="@id/txtCapital"/>
+
+    <ImageButton
+        android:layout_width="@dimen/listview_new_contact_add"
+        android:layout_height="@dimen/listview_new_contact_add"
+        android:id="@+id/btnAddContact"
+        android:src="@drawable/ic_add_black_48dp"
+        android:background="@drawable/button_grey"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/listview_new_contact_add_margin"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

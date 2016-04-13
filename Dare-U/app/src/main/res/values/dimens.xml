@@ -1,0 +1,99 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Selection Bar -->
+    <dimen name="selection_bar">55dp</dimen>
+    <dimen name="selection_bar_padding">3dp</dimen>
+
+    <!-- Action Bar -->
+    <dimen name="action_bar_button">36dp</dimen>
+    <dimen name="action_bar_margin">10dp</dimen>
+
+    <!-- Button -->
+    <dimen name="button_width">0dp</dimen>
+    <dimen name="button_grey_width">1dp</dimen>
+    <dimen name="button_radius">6dp</dimen>
+    <dimen name="button_padding">4dp</dimen>
+    <dimen name="button_grey_padding">7dp</dimen>
+    <dimen name="button_text_size">16sp</dimen>
+
+    <!-- Button Circle -->
+
+    <!-- Floating Button -->
+    <dimen name="floating_button_width">60dp</dimen>
+
+    <!-- Round Button -->
+    <dimen name="round_button_width">60dp</dimen>
+
+    <!-- Text View -->
+    <dimen name="text_big">32sp</dimen>
+    <dimen name="text_middle_big">28sp</dimen>
+    <dimen name="text_middle">22sp</dimen>
+    <dimen name="text_small_middle">14sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+
+    <!-- Edit Text -->
+    <dimen name="edittext_width">1dp</dimen>
+    <dimen name="edittext_radius">9dp</dimen>
+    <dimen name="edittext_padding">4dp</dimen>
+
+    <!-- Spinner -->
+    <dimen name="spinner_capital_height">40dp</dimen>
+    <dimen name="spinner_padding">5dp</dimen>
+
+    <!-- List View -->
+    <dimen name="listview_divider">0.3dp</dimen>
+
+    <dimen name="listview_challenge_turn">40dp</dimen>
+    <dimen name="listview_challenge_padding">5dp</dimen>
+    <dimen name="listview_challenge_margin">10dp</dimen>
+
+    <dimen name="listview_contact_capital_padding">5dp</dimen>
+    <dimen name="listview_contact_capital_margin">10dp</dimen>
+    <dimen name="listview_contact_capital_width">60dp</dimen>
+    <dimen name="listview_contact_favorite">35dp</dimen>
+    <dimen name="listview_contact_favorite_margin">10dp</dimen>
+
+    <dimen name="listview_new_contact_add">40dp</dimen>
+    <dimen name="listview_new_contact_add_margin">10dp</dimen>
+
+    <!-- Main -->
+
+    <!-- Welcome -->
+    <dimen name="welcome_padding">10dp</dimen>
+
+    <!-- Log In -->
+
+    <!-- Sign Up -->
+
+    <!-- Home -->
+
+    <!-- Challenges -->
+    <!-- New Challenge -->
+    <dimen name="new_challenge_margin_top">10dp</dimen>
+
+    <!-- Contacts -->
+    <!-- New Contact -->
+    <dimen name="new_contact_button_search">40dp</dimen>
+    <dimen name="new_contact_margin_search_left">3dp</dimen>
+    <dimen name="new_contact_margin_top">10dp</dimen>
+
+    <!-- Profile -->
+
+    <!-- Camera -->
+    <dimen name="camera_margin_top">10dp</dimen>
+    <dimen name="camera_padding_challenge">10dp</dimen>
+    <dimen name="camera_progress_padding">10dp</dimen>
+    <dimen name="camera_progress_elevation">5dp</dimen>
+
+    <!-- Contact Challenge -->
+
+    <!-- Post Challenge -->
+
+    <!-- Video Recorder -->
+    <dimen name="video_recorder_button_margin">20dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+</resources>
