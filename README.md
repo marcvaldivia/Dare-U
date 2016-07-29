@@ -8,7 +8,7 @@ Dare-U is an innovative platform that allows you to challenge your friends. Simp
 
 ## Why Open Source
 Dare-U started at the end of 2015. After a pair of months without any update, the app was losing users and I decided to change the server by another cheaper (before that, I used Google Cloud). Due to my lack of dedication and the lack of active users I gave up to continue developing the app. That's the reason why I'm putting the project on GitHub, I want that anybody can see and use my code for their own projects, or may be, continue with the development of Dare-U.</br>
-If you have any question, you can write me on: marc@dare-u.com
+If you have any question, you can write me on: marc@valdivia.cat
 
 ## Project Structure
 This project is separated in 3 parts. The Android app, the PHP server (2 versions, for Google Cloud 'AppEngine' and for an Apache Server) and the MySQL database.
