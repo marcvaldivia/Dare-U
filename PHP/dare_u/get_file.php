@@ -4,8 +4,8 @@
 	 * Imports
 	 */
 	require_once '../connect/db_functions.php';
-    require_once '../utils/security.php';
-    require_once '../constants/errors.php';
+    	require_once '../utils/security.php';
+    	require_once '../constants/errors.php';
 	require_once '../constants/preferences.php';
 	
 	// Error reporting false
