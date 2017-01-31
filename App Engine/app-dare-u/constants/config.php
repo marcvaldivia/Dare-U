@@ -12,6 +12,6 @@
 	/**
 	 * Google API Key
 	 */
-	define('GOOGLE_API_KEY', 'AIzaSyAjwM8E6WnHTiTfQ82xFmXnCe9U6K3j5A8');
+	define('GOOGLE_API_KEY', '***************');
 
 ?>
